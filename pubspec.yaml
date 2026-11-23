@@ -1,5 +1,7 @@
 name: photo_plus
-description: "Crop, compress, rotate and scale multiples photos in one go. PhotoPlus is a Flutter project that runs on Android, iOS, Windows and macOS."
+description: "A lightning-fast app for cropping, compressing, rotating and scaling multiple photos
+ in one go. PhotoPlus is a Flutter project that runs on Android, iOS, Windows and macOS devices. 
+ No need to upload your photos, everything happens offline on your device."
 
 publish_to: 'none'
 version: 1.0.0+1
