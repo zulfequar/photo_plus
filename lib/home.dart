@@ -15,7 +15,7 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         backgroundColor: Colors.black,
         foregroundColor: Colors.red,
-        title: const Text('PhotoPlus'),
+        title: Hero(tag: "PhotoPlus", child: const Text('PhotoPlus')),
       ),
       body: Center(
         child: const Text(
