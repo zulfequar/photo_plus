@@ -1,4 +1,5 @@
 import 'package:material_ui/material_ui.dart';
+import 'package:photo_plus/home.dart';
 
 void main() {
   runApp(const PhotoPlus());
@@ -15,19 +16,7 @@ class PhotoPlus extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: true,
       ),
-      home: const Scaffold(
-        backgroundColor: Colors.black,
-        body: Center(
-          child: Text(
-            "PhotoPlus",
-            style: TextStyle(
-              color: Colors.red,
-              fontSize: 50,
-              fontWeight: FontWeight(500),
-            ),
-          ),
-        ),
-      ),
+      home: const Home(),
       debugShowCheckedModeBanner: false,
     );
   }
